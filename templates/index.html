@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Application Flask - Enquête</title>
+</head>
+<body>
+
+<h2>Formulaire socio-économique</h2>
+
+<form method="post">
+
+<h3>Informations catégorielles</h3>
+
+<select name="etat_civil" required>
+    <option value="">État civil</option>
+    <option>Célibataire</option>
+    <option>Marié(e)</option>
+    <option>Divorcé(e)</option>
+    <option>Veuf(ve)</option>
+</select><br>
+
+<select name="sexe" required>
+    <option value="">Sexe</option>
+    <option>Homme</option>
+    <option>Femme</option>
+</select><br>
+
+<select name="region" required>
+    <option value="">Région</option>
+    <option>Dakar</option>
+    <option>Thiès</option>
+    <option>Saint-Louis</option>
+    <option>Kaolack</option>
+    <option>Ziguinchor</option>
+</select><br>
+
+<select name="ville" required>
+    <option value="">Ville</option>
+    <option>Dakar</option>
+    <option>Pikine</option>
+    <option>Rufisque</option>
+    <option>Thiès</option>
+    <option>Mbour</option>
+</select><br>
+
+<select name="niveau_etude">
+    <option>Niveau d'étude</option>
+    <option>Aucun</option>
+    <option>Primaire</option>
+    <option>Secondaire</option>
+    <option>Supérieur</option>
+</select><br>
+
+<select name="profession">
+    <option>Profession</option>
+    <option>Étudiant</option>
+    <option>Fonctionnaire</option>
+    <option>Privé</option>
+    <option>Indépendant</option>
+    <option>Autre</option>
+</select><br>
+
+<select name="chome">
+    <option>Chômeur</option>
+    <option>Oui</option>
+    <option>Non</option>
+</select><br>
+
+<select name="type_logement">
+    <option>Type de logement</option>
+    <option>Maison</option>
+    <option>Appartement</option>
+    <option>Chambre</option>
+</select><br>
+
+<select name="situation_familiale">
+    <option>Situation familiale</option>
+    <option>Seul</option>
+    <option>En famille</option>
+</select><br>
+
+<select name="assurance">
+    <option>Assurance</option>
+    <option>Oui</option>
+    <option>Non</option>
+</select><br>
+
+<select name="acces_internet">
+    <option>Accès Internet</option>
+    <option>Oui</option>
+    <option>Non</option>
+</select><br>
+
+<select name="moyen_transport">
+    <option>Moyen de transport</option>
+    <option>Bus</option>
+    <option>Taxi</option>
+    <option>Moto</option>
+    <option>Voiture</option>
+</select><br>
+
+<h3>Informations numériques</h3>
+
+<input type="number" name="age" placeholder="Âge"><br>
+<input type="number" name="revenu_mensuel" placeholder="Revenu mensuel"><br>
+<input type="number" name="depense_mensuelle" placeholder="Dépenses mensuelles"><br>
+<input type="number" name="nombre_enfants" placeholder="Nombre d'enfants"><br>
+<input type="number" name="anciennete_emploi" placeholder="Ancienneté emploi (ans)"><br>
+<input type="number" name="heures_travail" placeholder="Heures de travail / semaine"><br>
+<input type="number" name="distance_travail" placeholder="Distance travail (km)"><br>
+<input type="number" name="taille_menage" placeholder="Taille du ménage"><br>
+
+<br>
+<button type="submit">Envoyer</button>
+
+</form>
+
+</body>
+</html>
